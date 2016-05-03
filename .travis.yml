@@ -1,9 +1,13 @@
 matrix:
   include:
-    - perl: "5.22"
-    - perl: "5.20"
-    - perl: "5.18"
-    - php: "5.4"
+    - language: "perl"
+      perl: "5.22"
+    - language: "perl"
+      perl: "5.20"
+    - language: "perl"
+      perl: "5.18"
+    - language: "php"
+      php: "5.4"
 
 script:
   - prove
