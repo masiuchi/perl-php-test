@@ -5,10 +5,7 @@ matrix:
     - perl: "5.22"
     - perl: "5.20"
     - perl: "5.18"
-
-env:
-  - ISOLATED=true
-  - ISOLATED=false
+    - php: "5.4"
 
 script:
   - prove
