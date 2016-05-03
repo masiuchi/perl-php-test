@@ -14,5 +14,9 @@ matrix:
     - language: php
       php: "5.2"
 
+before_install:
+  - perlbrew
+  - phpenv
+
 script:
   - prove
