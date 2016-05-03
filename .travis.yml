@@ -6,5 +6,9 @@ matrix:
     - perl: "5.20"
     - perl: "5.18"
 
+env:
+  - ISOLATED=true
+  - ISOLATED=false
+
 script:
   - prove
