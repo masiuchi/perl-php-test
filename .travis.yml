@@ -15,8 +15,8 @@ matrix:
       php: "5.2"
 
 before_install:
-  - perlbrew
-  - phpenv
+  - perl --version
+  - php --version
 
 script:
   - prove
